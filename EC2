@@ -8,5 +8,3 @@ Resources:
     KeyName: "ubuntu_key_AWS"
     SecurityGroupIds:
       - "sg-084d36d807be8dff1"
-
-     
