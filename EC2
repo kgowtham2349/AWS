@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+ GowthamEC2Instance:
+  Type: "AWS::EC2::Instance"
+  Properties:
+    ImageId: "ami-051a31ab2f4d498f5"
+    InstanceType: "t2.micro"
+    KeyName: "ubuntu_key_AWS"
+    SecurityGroupIds:
+      - "sg-084d36d807be8dff1"
+
+     
