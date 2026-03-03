@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+    description: "This template creates an EC2 instance with a security group and key pair."
+    GowthamEC2Instance:
+        Type: 'AWS::EC2::Instance'
+        Properties:
+            ImageId: 'ami-0041456f78644c20a'
+            InstanceType: 't2.micro'
+            KeyName: 'AWS_EC2'
+            SecurityGroupIds:
+                - 'sg-084d36d807be8dff1'
